@@ -1,0 +1,128 @@
+<div class="banner_box" id="banner">
+    <style>
+        .banner_box {
+            width: 1200px;
+            height: 400px;
+            margin: 20px 0 0 304px;
+            overflow: hidden;
+            position: relative;
+            background-color: red;
+        }
+
+        .banner_box .top_bnr {
+            width: 100%;
+            background-color: #f7f7f7
+        }
+
+        .banner_box .top_bnr .banner {
+            width: 100%;
+            z-index: 0
+        }
+
+        .banner_box .top_bnr .banner li {
+            width: 100%;
+            position: absolute
+        }
+
+        .banner_box .top_bnr .banner li .pic {
+            display: block;
+            width: 100%;
+            overflow: hidden
+        }
+
+        .banner_box .num {
+            width: 100%;
+            text-align: center;
+            position: absolute;
+            bottom: 20px
+        }
+
+        .banner_box .num b {
+            background-color: #FFF;
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            display: inline-block;
+            margin-right: 10px;
+            height: 10px;
+            width: 10px;
+            font-size: 0;
+            filter: alpha(opacity=80);
+            opacity: .8
+        }
+
+        .banner_box .num b.cur {
+            background-color: #fff;
+            height: 10px;
+            width: 20px;
+            border-radius: 10px
+        }
+
+        .banner_box .bnr_btn_wrap {
+            width: 100%;
+            z-index: 9;
+            position: absolute;
+            top: 200px
+        }
+
+        .banner_box .bnr_btn_wrap .bnr_btn {
+            width: 100px;
+            height: 44px;
+            cursor: pointer;
+            position: absolute
+        }
+
+        .banner_box .bnr_btn_wrap .prev {
+            left: 0;
+            background: url("http://i.meilishuo.net/css/images/welcome/bnr_btn_left1.png") no-repeat
+        }
+
+        .banner_box .bnr_btn_wrap .next {
+            right: 0;
+            background: url("http://i.meilishuo.net/css/images/welcome/bnr_btn_right1.png") no-repeat center right
+        }
+
+        .banner_box {
+            height: 447px
+        }
+
+        @media screen and (max-width:1220px) {
+            body {
+                width: 1220px
+            }
+        }
+
+        img {
+            display: block
+        }
+    </style>
+    <div class="top_bnr">
+        <ul class="banner">
+            <li>
+                <a class="pic imgBox" name="秋款新装" href="newbags.html?qiiushangxin?mt=12.12555.r133713.19023&acm=1.mce.2.12555.0.0.19023_133713" target="_blank" style="background: repeat center top;">
+                    <span asrc="p2/160816/1us_2aa14eif6jg3cc003e33l1033926c_896x447.jpg"></span>
+                </a>
+            </li>
+            <li>
+                <a class="pic imgBox" name="那些传说中的斩男色" href="newbags.html?beauty816?mt=12.12555.r133923.19023&acm=1.mce.2.12555.0.0.19023_133923" target="_blank" style="background: repeat center top;">
+                    <span asrc="p2/160817/1su_2def54fle0d54bk8k65hkd82i5lja_896x447.jpg"></span>
+                </a>
+            </li>
+            <li>
+                <a class="pic imgBox" name="百元手表1元秒杀" href="newbags.html?nierr11?mt=12.12555.r133915.19023&acm=1.mce.2.12555.0.0.19023_133915" target="_blank" style="background: repeat center top;">
+                    <span asrc="p2/160816/1sc_16kl97dljdf5cf4f74l7e6373c312_896x447.jpg"></span>
+                </a>
+            </li>
+            <li>
+                <a class="pic imgBox" name="秋色撩人我撩你" href="newbags.html?liebo817?mt=12.12555.r133916.19023&acm=1.mce.2.12555.0.0.19023_133916" target="_blank" style="background: repeat center top;">
+                    <span asrc="p2/160816/1wi_613lahki1692a693b5701l9224kka_896x447.jpg"></span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="num"></div>
+    <div class="bnr_btn_wrap">
+        <span class="bnr_btn prev"></span>
+        <span class="bnr_btn next"></span>
+    </div>
+</div>
