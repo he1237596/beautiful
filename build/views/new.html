@@ -1,0 +1,17 @@
+
+<div class="product">
+
+    <ul class="clearfix product-ul" id="product-ul">
+        <li class="product-list fl" ng-repeat="(key,item) in items.list">
+            <div class="img-size"><a class="img-link" target="_blank"
+                                     href="{{item.item_url}}"
+                                     style="background:url({{item.item_pc_img}}) no-repeat center center;background-size:cover;"></a>
+            </div>
+            <div class="product-info clearfix">
+                <div class="price fl"><em class="price-u">￥</em><span class="price-n" ng-bind="item.discountPrice">80.10</span></div>
+            </div>
+            <a class="text-link" target="_blank"
+               href="shopdetail.html#?1gl82bc?acm=2.ms.2_4.0.12380.yUhpUbBxJQ1.t_0" ng-bind="item.title"> 1313专属定制 经典款显瘦大V领超薄针织衫T恤
+                85719</a></li>
+    </ul>
+</div>
