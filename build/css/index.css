@@ -693,6 +693,99 @@ ul {
   flex: 1;
   border: 1px solid #000;
 }
+#com-foot {
+  min-width: 1260px;
+  margin-top: 15px;
+  padding-top: 30px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+}
+#com-foot .inner {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#com-foot .flist {
+  float: left;
+  margin-right: 104px;
+  margin-bottom: 20px;
+  line-height: 26px;
+}
+#com-foot .flist h4 {
+  font-size: 16px;
+  line-height: 28px;
+}
+#com-foot .flist div {
+  margin-top: 12px;
+}
+#com-foot .aboutus {
+  margin-right: 0;
+}
+#com-foot .aboutus a {
+  vertical-align: middle;
+}
+#com-foot .i-sina {
+  background: url("http://d05.res.meilishuo.net/pic/_o/15/a0/83e2e4569fca186be6a8e4286d0b_74_18.c5.png") no-repeat;
+  height: 18px;
+  width: 18px;
+  margin-top: 5px;
+  margin-right: 5px;
+  float: left;
+  background-position: 0 0;
+}
+#com-foot .i-qzone {
+  background: url("http://d05.res.meilishuo.net/pic/_o/15/a0/83e2e4569fca186be6a8e4286d0b_74_18.c5.png") no-repeat;
+  height: 18px;
+  width: 18px;
+  margin-top: 5px;
+  margin-right: 5px;
+  float: left;
+  background-position: 0 0;
+  background-position: -28px 0;
+}
+#com-foot .i-tencent {
+  background: url("http://d05.res.meilishuo.net/pic/_o/15/a0/83e2e4569fca186be6a8e4286d0b_74_18.c5.png") no-repeat;
+  height: 18px;
+  width: 18px;
+  margin-top: 5px;
+  margin-right: 5px;
+  float: left;
+  background-position: 0 0;
+  background-position: -56px 0;
+}
+#com-foot .follow {
+  display: none;
+}
+#com-foot .service {
+  text-align: center;
+  margin-left: 228px;
+  margin-right: 55px;
+}
+#com-foot .qrcode {
+  display: inline-block;
+  margin-top: 13px;
+}
+#com-foot .last {
+  text-align: center;
+  float: right;
+  margin-right: 0;
+}
+#com-foot .client {
+  background: url("http://i.meilishuo.net/css/images/header/mls_global140607.png") no-repeat 0 -401px;
+  display: block;
+  height: 100px;
+  margin-top: 10px;
+  width: 132px;
+}
+#com-foot .record {
+  clear: both;
+  border-top: 1px solid #e6e6e6;
+  line-height: 22px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding: 12px 192px;
+  text-align: center;
+}
 .contain {
   width: 1200px;
 }
